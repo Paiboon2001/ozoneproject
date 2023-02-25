@@ -102,6 +102,12 @@ background-size: cover;
 .iii h5{
     padding: 22px;
 }
+.fut i{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    padding-right: 10px;
+}
 
 
 
@@ -249,6 +255,23 @@ h1{
     margin: 0 auto;
     text-align: center;
 }
+.co-1{
+    width: 360px;
+    margin: 3rem auto;
+    height: 300px;
+    box-shadow:5px 5px 8px rgba(0,0,0,0.4) ;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.co-2{
+    width: 360px;
+    margin: 3rem auto;
+    height: 300px;
+    box-shadow:5px 5px 8px rgba(0,0,0,0.4) ;
+    border-radius: 50px;
+    overflow: hidden;
+}
 
 
 *{
@@ -379,7 +402,7 @@ h1{
     align-items: center;
     margin: auto;
     color: #112611;
-    margin-top: 2%;
+    margin-top: 0.5%;
 }
 .fut a:hover:not(:disabled) {
     background: #112611;
