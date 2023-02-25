@@ -41,41 +41,73 @@ ul{
     transform-origin: left;
 
 }
-/*.header{
-    position: relative;
-    min-height: 100vh;
-}
+.reemo{
+width: 100%;
+height: 100vh;
+background-color: #112611;
+background-image: url('page.jpg');
+background-position: center;
+background-size: cover;
 
-.bg{
-    width: 100%;
-    height: 100%;
-    position: relative;
 }
+.reemo h1{
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
 
-.bg::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("page.jpg");
-    background-size: auto 100%;
-    background-size: cover;
-    z-index: -1;
-    background-position: center;
+    
+}
+.you{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
     border: 1px solid red;
-}*/
+    align-items: center;
+    
 
-/*div{
-    display: inline-block;
-    width: 290px;
-    height: 290px;
-    border: 2PX solid #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    border-radius: 50%;
-    overflow: hidden;
-}*/
+}
+.left{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    border: 1px solid red;
+}
+.right{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    border: 1px solid red;
+}
+.right img{
+    width: 500px;
+    height: 500px;
+}
+.iii{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7rem;
+    color: #dedede;
+}
+.iii h2{
+    font-size: 40px;
+}
+.iii h5{
+    padding: 22px;
+}
+
+
+
+
+
+
 .img{
     
     display: block;
@@ -113,7 +145,6 @@ ul{
     cursor: auto;
     color: grey;
    }
-
 
 
 
@@ -215,7 +246,7 @@ ul{
 }
 h1{
     
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -316,11 +347,7 @@ h1{
     height: 65px;
 }
 
-.fut a{
-    text-decoration: none;
-    margin-left: 0.5rem;
-    color: #112611;
-}
+
 .fut{
     text-decoration: none;
     display: flex;
@@ -344,6 +371,31 @@ h1{
     cursor: auto;
     color: grey;
    }   
+
+   .fut a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #112611;
+    margin-top: 2%;
+}
+.fut a:hover:not(:disabled) {
+    background: #112611;
+    color: white;
+    text-shadow: 0 0.1rem #fff;
+   }
+   .fut a:active {
+    color: white;
+    box-shadow: 0 0.2rem #fff;
+    transform: translateY(0.2rem);
+   }
+
+   .fut a:disabled {
+    cursor: auto;
+    color: grey;
+   } 
 
 
 
